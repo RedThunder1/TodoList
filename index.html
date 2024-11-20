@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Todo List</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="index.css"/>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="list">
+                <h1>Todo List</h1>
+                <p id="title">You have no todo items yet!<br>Add them below!</p>
+                <ul id="todo_list">
+                </ul>
+                <div class="item_input">
+                    <label><input type="text" placeholder="Todo Item" id="input"/></label>
+                    <button onclick="addItem()" id="add_button">Add</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
